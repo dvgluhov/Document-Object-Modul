@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<style>
+    img  {
+        height: auto;
+        width: 200px;
+    }
+</style>
+<body onload="alert ('Body loaded')">
+    <img src="1_small-4.jpg" onload="alert('Image loaded')">
+   <script>
+    //    window.onload = function (){
+    //        alert ('body loaded')
+    //    }
+       document.addEventListener ("DomContentLoaded", function(){
+           alert ("DOM loaded");
+       })
+
+
+   </script> 
+</body>
+</html>
